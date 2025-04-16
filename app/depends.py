@@ -1,7 +1,5 @@
-from fastapi import Depends
-from fastapi.security import OAuth2PasswordBearer
-from sqlalchemy.orm import Session
 from app.db.connection import Session
+
 # from share_files.auth_user import UserUseCases
 
 

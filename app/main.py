@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+
 from app.routes.user import unauthorized_user
 
 app = FastAPI()

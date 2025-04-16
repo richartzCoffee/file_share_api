@@ -1,0 +1,55 @@
+# Bytecode do Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ambientes virtuais (caso não esteja usando Poetry localmente)
+.env/
+.venv/
+venv/
+
+# Arquivos de ambiente
+.env
+*.env
+
+# Logs
+*.log
+log.txt
+
+# Cache de ferramentas
+.poetry/
+.mypy_cache/
+.pytest_cache/
+.cache/
+.dmypy.json
+.pyre/
+
+# Arquivos de testes (opcional, se você gerar arquivos temporários)
+*.cover
+coverage.xml
+htmlcov/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Alembic migrations (se gerar arquivos temporários ou pastas extras)
+alembic/versions/*.pyc
+alembic/versions/__pycache__/
+
+# Banco de dados local / SQLite (se estiver usando)
+*.sqlite3
+*.db
+
+# Arquivos específicos de IDEs
+.vscode/
+.idea/
+
+# Arquivos do Poetry
+poetry.lock  # opcional, veja observação abaixo
+
+# Arquivos gerados por builds (caso use build ou dist)
+build/
+dist/
+*.egg-info/
